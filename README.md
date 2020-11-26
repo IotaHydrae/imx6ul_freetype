@@ -4,13 +4,13 @@
 freetype的一些基本操作，支持多行显示，自定义显示位置和行距,字体文件因为大于10MB无法上传，可以找寻Windows文件夹下Fonts目录的字体文件。
 
 #### 安装教程
-
+```shell
 arm-linux-gnueabihf-gcc -o show_line show_line.c -lfreetyoe
-
+```
 #### 使用说明
-
+```shell
 Usage: ./show_line <font-file> <lcd_x> <lcd_y> [font-size] [row-spacing]
-
+```
 #### 参与贡献
 @[hz2](https://gitee.com/JensenHua/)
 

@@ -1,25 +1,18 @@
 # imx6ul_freetype
 
 #### 介绍
-freetype的一些基本操作，支持多行显示，自定义显示位置和行距。
-
-#### 软件架构
-软件架构说明
-
+freetype的一些基本操作，支持多行显示，自定义显示位置和行距,字体文件因为大于10MB无法上传，可以找寻Windows文件夹下Fonts目录的字体文件。
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+arm-linux-gnueabihf-gcc -o show_line show_line.c -lfreetyoe
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Usage: ./show_line ./simsun.ttc <lcd_x> <lcd_y> [font-size] [row-spacing]
 
 #### 参与贡献
+@[hz2](https://gitee.com/JensenHua/)
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支

@@ -9,7 +9,7 @@ arm-linux-gnueabihf-gcc -o show_line show_line.c -lfreetyoe
 
 #### 使用说明
 
-Usage: ./show_line ./simsun.ttc <lcd_x> <lcd_y> [font-size] [row-spacing]
+Usage: ./show_line <font-file> <lcd_x> <lcd_y> [font-size] [row-spacing]
 
 #### 参与贡献
 @[hz2](https://gitee.com/JensenHua/)
